@@ -9,11 +9,9 @@ class App extends Component {
     const { films } = TMDB;
 
     return (
-      <div className="App">
-        <div className="film-library">
-          <FilmListing films={films} />
-          <FilmDetails />
-        </div>
+      <div className="film-library">
+        <FilmListing films={films} />
+        <FilmDetails />
       </div>
     );
   }
