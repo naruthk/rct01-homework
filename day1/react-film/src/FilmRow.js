@@ -17,7 +17,7 @@ class FilmRow extends Component {
 
         <div className="film-summary">
           <h1>{title}</h1>
-          <p>{this.getFullYearFromDate(releaseDate)}</p>
+          <p>{getFullYearFromDate(releaseDate)}</p>
         </div>
       </div>
     );
