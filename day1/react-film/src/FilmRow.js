@@ -3,8 +3,8 @@ import FilmPoster from "./FilmPoster";
 
 class FilmRow extends Component {
 
-  getFullYearFromDate = (date) => {
-    var dateObj = new Date(date);
+  static getFullYearFromDate = (date) => {
+    const dateObj = new Date(date);
     return dateObj.getFullYear();
   }
 
